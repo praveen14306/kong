@@ -1,6 +1,6 @@
 _format_version: "3.0"
 services:
-  - name: service-a
+  - name: service
     url: http://service:8080
     routes:
       - name: service-route
