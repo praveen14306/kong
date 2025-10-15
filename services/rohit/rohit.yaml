@@ -5,5 +5,4 @@ services:
     routes:
       - name: service-route
         paths:
-          - /service/v1
-
+          - ~/service123/v1/(/?)

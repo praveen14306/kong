@@ -1,0 +1,8 @@
+_format_version: "3.0"
+services:
+  - name: service
+    url: http://service:8080
+    routes:
+      - name: service-route
+        paths:
+          - ~/service/v1/(/?)
